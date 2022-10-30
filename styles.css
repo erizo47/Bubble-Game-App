@@ -141,10 +141,13 @@ h1 {
 .win-switch {
   width: 120px;
   height: 30px;
-  background: var(--hover-color);
+  background: var(--active-color);
   border-radius: 50px;
   margin-top: 20px;
   cursor: pointer;
+}
+.win-switch:hover {
+  background: var(--hover-color);
 }
 
 .switch {
